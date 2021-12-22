@@ -1,8 +1,9 @@
 public class Menu {
-    public void mainMenu(){
+    public void mainMenu() {
         System.out.println("Добро пожаловать!" + "\n" + "Выберете действие:");
     }
-    public void actions(){
+
+    public void actions() {
         System.out.println("1 - Сортировка");
         System.out.println("2 - Поиск слова");
         System.out.println("3 - Хеширование по первой букве");
